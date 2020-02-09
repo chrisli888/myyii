@@ -1,0 +1,21 @@
+{
+  "name": "lzzq/swoole-yii2",
+  "description": "yii2 swoole",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lize",
+      "email": "459985175@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Myswoole\\Swoole\\": "src/"
+    }
+  }
+}
