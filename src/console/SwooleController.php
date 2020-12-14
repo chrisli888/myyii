@@ -130,7 +130,7 @@ class SwooleController extends \yii\console\Controller
                         }
                     }
                 }
-                #yii::$app->getDb()->close();
+                yii::$app->getDb()->close();
                 UploadedFile::reset();
                 yii::$app->getLog()->getLogger()->flush();
                 yii::$app->getLog()->getLogger()->flush(true);
